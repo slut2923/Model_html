@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.chat_form {
+
+}
+
+.chat_form table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.chat_form table tr th,
+.chat_form table tr td {
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+
+.writing table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.writing table tr{
+  border-bottom: 2px solid #B9B9B9;
+}
+
+.writing table tr td {
+  padding: 10px 0;
+}
+
+.writing table tr td:first-child{
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.writing table tr td:nth-child(2){
+  padding-left: 10px;
+}
+
+.icon {
+  position: relative;;
+}
+
+.btn {
+
+}
